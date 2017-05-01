@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.totaldanarchy.deceptionhoundpranker.MainActivity"
+    android:background="#142f5a"
+    android:id="@+id/linearLayout1"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stopScan"
+        android:id="@+id/stopScan"
+        android:background="#000"
+        android:layout_above="@+id/starttruth"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fabf32" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/startLieTruth"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/startLieTruth"
+        android:background="#fabf32" />
+        android:layout_marginBottom="10dp"
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/selection_instruction"
+        android:id="@+id/textView2"
+        android:textColor="#fabf32"
+        android:layout_above="@+id/startlie"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.41" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/startLie"
+            android:id="@+id/startlie"
+            android:background="#fabf32"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@+id/stopScan"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/startTruth"
+            android:id="@+id/starttruth"
+            android:background="#fabf32"
+            android:layout_above="@+id/stoptruth"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/startIdiot"
+            android:id="@+id/startidiot"
+            android:background="#fabf32"
+            android:layout_above="@+id/stopidiot"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/startGenius"
+            android:id="@+id/startgenius"
+            android:background="#fabf32"
+            android:layout_above="@+id/stopgenius"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2329818065573493/7808137964">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

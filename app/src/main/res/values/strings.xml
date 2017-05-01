@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Deception Hound Pranker</string>
+    <string name="startLie">Lie Scan</string>
+    <string name="stopScan">Stop Scan</string>
+    <string name="startTruth">Truth Scan</string>
+    <string name="startIdiot">Idiot Scan</string>
+    <string name="startGenius">Genius Scan</string>
+    <string name="startLieTruth">Lie or Truth?</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2329818065573493/7808137964</string>
+    <string name="selection_instruction">select the result you want from the list below</string>
+</resources>
